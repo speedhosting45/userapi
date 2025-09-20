@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: random-address-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
